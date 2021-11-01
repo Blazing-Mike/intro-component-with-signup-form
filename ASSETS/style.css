@@ -101,7 +101,7 @@ form {
   border-radius: 0.4rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center; */
   align-items: center;
   gap: 1rem;
 }
