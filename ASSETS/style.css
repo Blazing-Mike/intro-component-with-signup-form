@@ -109,7 +109,7 @@ form {
   display: flex;
   margin-left: -3rem;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 2%;
 }
