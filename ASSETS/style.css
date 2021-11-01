@@ -101,16 +101,16 @@ form {
   border-radius: 0.4rem;
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center; */
+  justify-content: center; 
   align-items: center;
   gap: 1rem;
 }
 .field-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  margin: 0 2%;
+ /* justify-content: center;
+  margin: 0 2%; */
 }
 
 .field-container.success .field {
