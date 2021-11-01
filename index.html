@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/ASSETS/style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+<div class="container">
+  <div class="intro">
+    <h1 class="heading">
+      Learn to code by watching others
+    </h1>
+    <p class="para">
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. </p>
+  </div>
+  
+  <div class="form__container">
+    <div class="info">
+      <p class="info__text"><strong> Try it free 7 days</strong> then $20/mo. thereafter</p>
+      </div>
+  
+   <form name = "myForm" class="form" id= "form">
+     
+     <div class="field-container">
+      <input type="text" class="field" placeholder=" First Name" id="Fname" name="Fname"> 
+       <input type="image" src="/images/icon-error.svg" alt="icon-error"   class="error-icon">
+       <div class="success-container">
+        <p> <i class="arrow success-icon"></i></p>
+      </div>
+       <p id="error" class="error-message">Looks like this is not an email</p>
+     </div>
+
+  <div class="field-container">
+    <input type="text" class="field" placeholder="Last Name" id="Lname" name="Lname">
+    <input type="image" src="/images/icon-error.svg" alt="icon-error" class="error-icon">
+    <p id="error" class="error-message">Looks like this is not an email</p>
+    <div class="success-container">
+      <p> <i class="arrow success-icon"></i></p>
+    </div>
+  </div>
+
+  <div class="field-container">
+    <input type="email" class="field" placeholder=" Email Address" id="email" name="email">
+    <input type="image" src="/images/icon-error.svg" alt="icon-error"   class="error-icon">
+    <div class="success-container">
+      <p> <i class="arrow success-icon"></i></p>
+    </div>
+    <p id="error"  class="error-message"> Looks like this is not an email</p>
+
+  </div>
+
+  <div class="field-container">
+    <input type="password" class="field" placeholder="Password" id="password" >
+    <input type="image" src="/images/icon-error.svg" alt="icon-error"  class="error-icon">
+    <div class="success-container">
+      <p> <i class="arrow success-icon"></i></p>
+    </div>
+    
+    <p id="error" class="error-message">Looks like this is not a password</p>
+  </div>
+  
+  
+   <input type="submit" class="submit" id="submit-btn" value="Claim your free trial" > 
+  <p class="terms">
+    By clicking the button, you are agreeing to our <span class="red-text">Terms and Services</span></p>
+
+   </form>
+  </div>
+</div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Michael Adebambo</a>.
+    </p>
+  </footer>
+  <script src="/ASSETS/script.js"></script>
+</body>
+</html>
