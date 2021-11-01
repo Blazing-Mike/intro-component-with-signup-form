@@ -107,7 +107,6 @@ form {
 }
 .field-container {
   display: flex;
-  margin-left: -3rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
